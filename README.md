@@ -27,12 +27,12 @@ La classe Pion est défini par :
 La classe Plateau est défini par :
 - ```self.fenetre``` crée une fenêtre tkinter
 - ```self.canvas``` crée un canva
-- ```self.cases_libres``` un dictionnaire pour les casses libres où l'on peut placer des pions
-- ```self.cases_occupees``` un dictionnaire pour les casses occupées où un pion existe déjà
+- ```self.cases_libres``` un dictionnaire pour les cases libres où l'on peut placer des pions
+- ```self.cases_occupees``` un dictionnaire pour les cases occupées où un pion existe déjà
 - ```self.nombre_coups``` compte le nombre de coup afin de permettre à l'IA de choisir le chemin le plus optimal pour elle
-- ```self.joueur_actuel``` gère quel joueur doit jouer, les premiers à jouer étant les pions noir, joueur_actuel est noir au début
+- ```self.joueur_actuel``` gère quel joueur doit jouer, les premiers à jouer étant les pions noirs joueur_actuel est noir au début
 - ```self.valeurs_cases``` assigne des poids aux cases nécessaire à l'implémenttion de l'IA
-- ```self.mode_auto``` permet de savoir si le mode ia vs ia se lance en mode automatique ou manuel
+- ```self.mode_auto``` permet de définir si le mode ia vs ia se lance en mode automatique ou manuel
 - ```self.nombre_pions_label``` nombre de pions présents sur le plateau au fur et à mesure que le jeu avance
 - ```self.mode``` un choix possible entre 3 modes : 2 joueurs, 1 joueur et une ia, 2 ia, le jeu du joueur contre l'IA peut être en mode facile ou difficile
 - ```self.init_game``` initialise le jeu
