@@ -57,6 +57,8 @@ class Plateau:
         self.mode = mode
         self.difficulte = difficulte  
         self.fenetre.title("Othello")
+        self.qui_doit_jouer = Label(self.fenetre, text="Tour du joueur : Noir", fg="black")
+        self.qui_doit_jouer.pack(side="bottom")
         for widget in self.fenetre.winfo_children():
             if isinstance(widget, Button):
                 widget.destroy()
@@ -112,8 +114,6 @@ class Plateau:
         positions_initiales = {'D4': 'white', 'D5': 'black', 'E4': 'black', 'E5': 'white'}
         for pos, couleur in positions_initiales.items():
             self.creer_pion(pos, couleur)
-        self.qui_doit_jouer = Label(self.fenetre, text="Tour du joueur : Noir", fg="black")
-        self.qui_doit_jouer.pack(side="bottom")
         self.mise_a_jour_apres_coup()
 
     def assigner_valeurs_cases(self):
