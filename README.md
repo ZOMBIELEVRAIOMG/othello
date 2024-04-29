@@ -19,12 +19,12 @@ Dans le terminal, une fois dans le répertoire courant, taper la ligne de comman
 Le code est organisé en deux classes que sont la classe Pion qui définit ce qu'est un pion et la classe Plateau qui initialise un plateau
 et permet de lancer le jeu de différentes manières.
 
-La classe Pion est défini par :
+La classe Pion est définie par :
 - ```self.nom_case``` le nom de la case où se trouve le pion
 - ```self.couleur``` la couleur du pion
 - ```self.cercle``` la représentation graphique du pion
 
-La classe Plateau est défini par :
+La classe Plateau est définie par :
 - ```self.fenetre``` crée une fenêtre tkinter
 - ```self.canvas``` crée un canva
 - ```self.cases_libres``` un dictionnaire pour les cases libres où l'on peut placer des pions
