@@ -16,8 +16,7 @@ Vous trouverez 3 fichiers ;
 Dans le terminal, une fois dans le répertoire courant, taper la ligne de commande ```make```
 
 ### Description du code
-Le code est organisé en deux classes que sont la classe Pion qui définit ce qu'est un pion et la classe Plateau qui initialise un plateau
-et permet de lancer le jeu de différentes manières.
+Le code est organisé en deux classes que sont la classe Pion qui définit ce qu'est un pion et la classe Plateau qui initialise un plateau et permet de lancer le jeu de différentes manières.
 
 La classe Pion est définie par :
 - ```self.nom_case``` le nom de la case où se trouve le pion
